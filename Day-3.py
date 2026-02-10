@@ -1,28 +1,32 @@
-#1.Write a program to print number from 1 to 100.
-
-# for i in range(1,1001):
-#     # print(i,end=" ")
-#     print("unknow  jan paran...",end=" ")
-
-# for mohan in range(1,101):
-#     if mohan%2==0:
-#         print(mohan)
-#3.Write a program to find the sum of natural number
+#11. print number from 1 to 100.
+# for i in range(1,101):
+#     print(i,end=" ")
+#12.print the all even number from 1 to 100.
+# for i in range(1,101):
+#     if i%2==0:
+#         print(i,end=" ")
+#13.all even number from 1 to 100
 # n=int(input("Enter the number "))
 # s=0
-# for i in range(1,n+1):
+# for i in range(n+1):
 #     s=s+i 
-#     # print(s)
-# print("sum of natural number=",s)
-#14Write a program to find the sum of all even number from the given number 
+# print("sum",s)
+
+#14. all even number from the given number 
 # s=0
-# for mohan in range(1,101):
-#     # s=s+mohan
-#     if mohan%2==0:
-#         s=s+mohan
-#         # print(mohan)
-# print("even sum=",s)
-#15. Write a program to print the number that is divisible by 3 and 5  1 to 100
-for i in range(1, 101):
-    if i%3==0 and i%5==0:
-        print(i)
+# no_s=0
+# for i in range(1,101):
+#     no_s=no_s+i
+#     if i%2==0:
+#         s=s+i 
+# print("sum of even no ",s)
+# print("sum of no from 1 to 100 ",no_s)
+
+#15.Write a program to print the number that is divisible by 3 and 5 
+# for i in range(1,101):
+#     if i%3==0 and i%5==0:
+#         print(i,end=" ")
+
+        
+
+    
